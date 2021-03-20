@@ -1,5 +1,5 @@
 module.exports = {
-  port: 8000,
+  port: (process.env.PORT || 5000),
   s3: {
     key: '',
     secret: '',
